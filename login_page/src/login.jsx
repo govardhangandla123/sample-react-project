@@ -4,8 +4,9 @@ import Appp from "./loginone";
 const Button=(props)=>{
     return(
         <div>
-            <button>          {props.children}
-            </button>
+            <p>
+                {props.children}
+            </p>
   
         </div>
     );
